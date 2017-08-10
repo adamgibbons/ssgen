@@ -1,0 +1,32 @@
+html
+  head
+    title ssgen
+    link(rel="stylesheet" href="/index.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+  body
+    .container
+      nav.navbar
+        .navbar-brand
+          a.navbar-item(href="/")
+            img#logo(src="/logo.png" alt="ssgen logo")
+        .navbar-menu
+          .navbar-start
+          .navbar-end
+            a.nav-item(href="/about") About
+            .nav-item
+              a.button.is-primary.is-inverted Contact
+
+    block body
+
+    footer.footer
+      .container
+        .footer-wrapper
+          .content
+            .columns
+              .column
+                p
+                  a(href="/about")  About
+                  |  |
+                  a(href="/contact")  Contact
+              .column.has-text-right
+                p No copyright on this puppy!

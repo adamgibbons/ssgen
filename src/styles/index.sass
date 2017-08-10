@@ -1,0 +1,21 @@
+@charset "utf-8"
+
+// import utilities one by one we can override settings
+// @import src/styles/initial-variables
+@import node_modules/bulma/sass/utilities/initial-variables
+@import node_modules/bulma/sass/utilities/functions
+// @import src/styles/derived-variables
+@import node_modules/bulma/sass/utilities/derived-variables
+@import node_modules/bulma/sass/utilities/animations
+@import node_modules/bulma/sass/utilities/mixins
+@import node_modules/bulma/sass/utilities/controls
+
+// import everything else en masse
+@import node_modules/bulma/sass/base/_all
+@import node_modules/bulma/sass/elements/_all
+@import node_modules/bulma/sass/components/_all
+@import node_modules/bulma/sass/grid/_all
+@import node_modules/bulma/sass/layout/_all
+
+@import src/styles/app
+// @import src/styles/skews
