@@ -1,9 +1,7 @@
 # ssgen
 
-This repository is a
-1) **static site generator** 
-2) **development environment**
-for your next great website.
+Use this repository as a seed for your next great website. It's both a
+**static site generator** as well as a **development environment**.
 
 ## Installation
 
