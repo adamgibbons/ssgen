@@ -32,7 +32,7 @@ gulp.task('serve', ['styles', 'markup', 'images'], function() {
   });
 
   gulp.watch(
-    ['src/**/*.pug', 'src/styles/*.sass', 'src/images/**/*'],
+    ['src/**/*.pug', 'src/styles/**/*.sass', 'src/images/**/*'],
     ['styles', 'markup', 'images']
   );
 });
