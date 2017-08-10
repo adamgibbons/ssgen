@@ -1,6 +1,6 @@
 {
   "name": "ssgen",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Static site generator and development environment in Node.js",
   "main": "index.js",
   "scripts": {
